@@ -1,7 +1,7 @@
-package com.B33_GR08_MyProject.pages;
+package com.B33_GR08_vytrack.pages;
 
 
-import com.B33_GR08_MyProject.utilities.Driver;
+import com.B33_GR08_vytrack.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

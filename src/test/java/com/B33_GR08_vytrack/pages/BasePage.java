@@ -1,10 +1,10 @@
-package com.B33_GR08_MyProject.pages;
+package com.B33_GR08_vytrack.pages;
 
 
 
 
-import com.B33_GR08_MyProject.utilities.BrowserUtils;
-import com.B33_GR08_MyProject.utilities.Driver;
+import com.B33_GR08_vytrack.utilities.BrowserUtils;
+import com.B33_GR08_vytrack.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;

@@ -1,4 +1,4 @@
-package com.B33_GR08_MyProject.utilities;
+package com.B33_GR08_vytrack.utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

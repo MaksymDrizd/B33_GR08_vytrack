@@ -1,11 +1,11 @@
-package com.B33_GR08_MyProject.step_definitions;
+package com.B33_GR08_vytrack.step_definitions;
 
 
 
 
-import com.B33_GR08_MyProject.utilities.BrowserUtils;
-import com.B33_GR08_MyProject.utilities.ConfigurationReader;
-import com.B33_GR08_MyProject.utilities.Driver;
+import com.B33_GR08_vytrack.utilities.BrowserUtils;
+import com.B33_GR08_vytrack.utilities.ConfigurationReader;
+import com.B33_GR08_vytrack.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;

@@ -1,4 +1,4 @@
-package com.B33_GR08_MyProject.runners;
+package com.B33_GR08_vytrack.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json"
         },
         features = "src/test/resources/features",
-        glue = "com/B33_GR08_MyProject/step_definitions",
+        glue = "com/B33_GR08_vytrack/step_definitions",
         dryRun = true,
         tags = "@wip",
         publish = true //generating a report with public link

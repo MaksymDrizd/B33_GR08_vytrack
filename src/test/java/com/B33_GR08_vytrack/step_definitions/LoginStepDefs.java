@@ -1,7 +1,7 @@
-package com.B33_GR08_MyProject.step_definitions;
+package com.B33_GR08_vytrack.step_definitions;
 
-import com.B33_GR08_MyProject.pages.LoginPage;
-import com.B33_GR08_MyProject.utilities.ConfigurationReader;
+import com.B33_GR08_vytrack.pages.LoginPage;
+import com.B33_GR08_vytrack.utilities.ConfigurationReader;
 import io.cucumber.java.en.Given;
 public class LoginStepDefs {
 

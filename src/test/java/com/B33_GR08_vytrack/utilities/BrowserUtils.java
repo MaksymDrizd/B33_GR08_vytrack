@@ -1,4 +1,4 @@
-package com.B33_GR08_MyProject.utilities;
+package com.B33_GR08_vytrack.utilities;
 
 import org.junit.Assert;
 import org.openqa.selenium.*;
