@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
@@ -482,6 +483,18 @@ public class BrowserUtils {
      */
     public static void waitForPresenceOfElement(By by, long time) {
         new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(time)).until(ExpectedConditions.presenceOfElementLocated(by));
+    }
+
+    public static List<String> getElementsTextWithAttribute(String attribute, List<WebElement> elements) {
+
+        List<String> texts = new LinkedList<>();
+
+        for (WebElement element : elements) {
+            texts.add(element.getAttribute(attribute));
+        }
+
+        return texts;
+
     }
 
 
