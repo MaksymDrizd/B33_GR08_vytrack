@@ -17,5 +17,6 @@ public class QuestinMarkDef {
     @Then("user should access to the Oroinc Documentation page")
     public void user_should_access_to_the_oroinc_documentation_page() {
 
+        BrowserUtils.switchWindowAndVerify("https://qa.translantik.com","Welcome to Oro Documentation");
     }
 }
