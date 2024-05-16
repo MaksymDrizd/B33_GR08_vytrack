@@ -6,6 +6,7 @@ import com.B33_GR08_vytrack.utilities.BrowserUtils;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.WebElement;
 
 public class US03_pinbarStepDefs extends BasePage {
 
@@ -40,9 +41,9 @@ public class US03_pinbarStepDefs extends BasePage {
     @Then("User sees an image on the page")
     public void user_sees_an_image_on_the_page() {
 
-        BrowserUtils.waitForVisibility(page.image, 20);
-        boolean imagePresent = page.image.isDisplayed();
-        Assert.assertTrue(imagePresent);
+        String expectedImage = "/bundles/oronavigation/images/pinbar-location.jpg";
+        String actualImage = page.image.getAttribute("src");
+        Assert.assertTrue(actualImage.contains(expectedImage));
     }
 
 }
