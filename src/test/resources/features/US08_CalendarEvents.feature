@@ -1,5 +1,5 @@
 @CalendarEvents
-Feature: Default
+Feature: As a user, I want to create a recurring(repetitive) calendar event.
 #@B33G8-140
   Background:User is already in the log in page
     Given the user is on the login page

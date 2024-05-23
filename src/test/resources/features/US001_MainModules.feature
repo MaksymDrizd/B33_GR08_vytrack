@@ -1,5 +1,5 @@
 @US001
-Feature: Default
+Feature: As a user, I should be accessing all the main modules of the app.
 #@B33G8-140
 	Background:
 		 Given the user is on the login page
